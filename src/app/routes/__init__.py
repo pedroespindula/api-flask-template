@@ -1,4 +1,4 @@
-from .ping import ping
+from app.routes.ping import ping
 
 def define_routes(app):
     # Test route
