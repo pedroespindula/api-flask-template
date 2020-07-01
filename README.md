@@ -41,6 +41,22 @@ $ docker-compose up
 $ docker-compose up --build
 ```
 
+## Testes
+
+Para executar os testes utilize o seguinte comando
+
+```sh
+$ docker-compose run api python -m pytest src
+```
+
+## Linter
+
+Para executar o linter utilize o seguinte comando
+
+```sh
+$ docker-compose run api python -m pylint src
+```
+
 ## WIKI
 
 ### Caso haja um erro de dependencia de instalação de um serviço
