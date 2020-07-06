@@ -11,7 +11,7 @@ def make_response(body, status_code):
 
 def make_error_reponse(message, status_code):
     return Response(
-        json.dumps({ "error": message }),
+        json.dumps({"error": message}),
         status=status_code,
         mimetype="application/json"
     )
